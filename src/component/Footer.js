@@ -38,7 +38,7 @@ function Footer() {
 <VscFeedback color='white' size={40} />
       </button>
   <div className='flex flex-row gap-8 mt-6 '>
-  <a  href='https://github.com/benzinamohamed/ENSTA-Bank-' target='_blank'><FaGithub size={50} color='white' className='cursor-pointer' /></a>
+  <a  href='https://github.com/benzinamohamed/ENSTA-Bank' target='_blank'><FaGithub size={50} color='white' className='cursor-pointer' /></a>
   <a href='https://linktr.ee/ensta.bank'target='_blank' ><FaLinkedin size={50} color='white' className='cursor-pointer' /></a>
   <a href='https://linktr.ee/ensta.bank.telegram'target='_blank' ><FaTelegram size={50} color='white' className='cursor-pointer' /></a>
   <a href='https://linktr.ee/ensta.bank.Insta'target='_blank' ><FaInstagram size={50} color='white' className='cursor-pointer' /></a>
