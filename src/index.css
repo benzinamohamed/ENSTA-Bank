@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Readex+Pro:wght@160..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .custom-scrollbar {
+      @apply overflow-y-scroll; /* Apply Tailwind utilities */
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px; /* Scrollbar width */
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #2d2b36; /* Track color */
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #6946f7; /* Thumb color */
+      border-radius: 4px; /* Round thumb */
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #a3b9f0; /* Hover thumb color */
+    }
+  }
+  
