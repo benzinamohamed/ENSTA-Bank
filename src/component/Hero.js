@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
         <div className='text-center min-lg:text-start'>
         <p className='text-white font-primaryFont opacity-95 text-xl text-balance min-lg:text-4xl min-md:text-2xl'>
-        A comprehensive library of study resources for <a className='text-y1'href='https://ensta.edu.dz/'target='1'>ENSTA</a>, entirely created and maintained by students. It offers access to 
+        A comprehensive library of study resources for <a className='text-y1'href='https://ensta.edu.dz/'target='1'>ENSTA</a> entirely created and maintained by students. It offers access to 
         </p>
         <p><Typing></Typing></p>
         </div>
