@@ -58,7 +58,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200" >
+              <a href="https://drive.google.com/drive/u/3/folders/1RrZ8fNBRuGgqrdzwOoNDCHKdV-un2Vrg" className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200" >
                 2ND YEAR
               </a>
             </li>
