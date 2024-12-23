@@ -31,7 +31,7 @@ return (
     <div className=' min-lg:w-[70%] w-[80%] my-6 border border-gray-700 shadow-sm rounded-3xl flex  flex-col justify-start bg-navbarColor min-lg:min-w-[400px]'>
       <div >
        <ul className='text-white font-primaryFont opacity-90 min-lg:text-base text-base list-disc p-4 flex flex-col min-lg:gap-12 gap-6 ml-6 my-6 text-pretty' >
-       {SEMESTER1.map((item)=>{return <li  className='hover:text-gray-200 cursor-pointer  ' key={item.id}><a target='_blank' href={item.url}>{item.name}</a></li>})}
+       {SEMESTER1.map((item)=>{return <li  className='min-lg:hover:text-gray-500 cursor-pointer  active:text-gray-500 ' key={item.id} ><a target='_blank' href={item.url}>{item.name}</a></li>})}
        </ul>
        <div className='w-[100%] h-[2px] bg-gray-700 text-center  block  ml-auto mr-auto'>
        </div>
@@ -42,7 +42,7 @@ return (
     <div className='min-lg:w-[70%] w-[80%] my-6 border border-gray-700 shadow-sm rounded-3xl flex  flex-col justify-start bg-navbarColor min-lg:min-w-[400px] '>
       <div >
        <ul className=' text-white font-primaryFont opacity-90 min-lg:text-base text-base list-disc p-4 flex flex-col min-lg:gap-12 gap-6 ml-6 my-6  text-pretty' >
-       {SEMESTER2.map((item)=>{return <li className='hover:text-gray-200 cursor-pointer  ' key={item.id}><a target='_blank' href={item.url}>{item.name}</a></li>})}
+       {SEMESTER2.map((item)=>{return <li className='min-lg:hover:text-gray-500 cursor-pointer active:text-gray-500 ' key={item.id} ><a target='_blank' href={item.url}>{item.name}</a></li>})}
        </ul>
        <div className='w-[100%] h-[2px] bg-gray-700 text-center  block  ml-auto mr-auto'>
        </div>
@@ -54,6 +54,8 @@ return (
 )
 
 }
+
+
 
 
 
