@@ -46,11 +46,12 @@ function Footer() {
   </div>
       <p className='text-white  font-primaryFont mt-6 mb-6 min-lg:text-xl text-nowrap text-sm '>made by APP and CYBER SECURITY departments</p>
 <img alt='gdg ex gdsc' src={gdg} className='w-[20%]'/>
+<p className='text-white mt-4'>© 2024 EnstaBank. All rights reserved.</p>
       <div>
 
       </div>
     </div>
-
+ 
     <div className="hidden min-lg:flex min-lg:items-center min-lg:justify-center min-lg:w-1/3">
       <img alt ="logo" src={logo} className='w-[57%]'/>
     </div>
