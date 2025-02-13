@@ -4,7 +4,7 @@ import { welcome } from '../constants/constants'
 import { TypeAnimation } from 'react-type-animation';
 import Subjects from './Subjects';
 import Footer from './Footer';
-export default function Hero() {
+export default function Hero({ref1 , ref2}) {
   return (
     <div>
     <section className='my-4 mx-2 min-lg:my-24 min-lg:p-6'>
@@ -27,7 +27,7 @@ export default function Hero() {
        </div>
     </div>
     <section className=' mt-6 mb-6 min-xl:p-52 '>
-<Subjects></Subjects>
+<Subjects ref1={ref1} ref2={ref2}></Subjects>
     </section>
     </section>
     <Footer></Footer>

@@ -3,8 +3,8 @@ import logo from '../assets/LOGO_PNG3.png';
 import { FaBars } from "react-icons/fa6";
 import toast, { Toaster } from 'react-hot-toast';
 
-function Navbar() {
-    const [toggle , setToggle] =useState(false)
+function Navbar({ref1 , ref2 , handelPress}) {
+    const [toggle , setToggle] =useState(false) 
   return (
     <nav className="w-[92%] mx-auto " >
               <Toaster position='bottom-right' toastOptions={{duration :700}} />
@@ -19,12 +19,12 @@ function Navbar() {
        < div className="hidden min-lg:block sm:w-[67%]">
           <ul className="flex flex-row justify-center items-center gap-16 px-6">
             <li>
-              <a href="https://drive.google.com/drive/u/0/folders/1Sfk9ToltAdHnGYr_h897kjl3iuRlyFbA" target='_blank' className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200">
+              <a onClick={()=>handelPress(ref1)}   className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200 cursor-pointer">
                 1ST YEAR
               </a>
             </li>
             <li>
-              <a href="https://drive.google.com/drive/u/3/folders/1RrZ8fNBRuGgqrdzwOoNDCHKdV-un2Vrg" target='_blank' className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200">
+              <a onClick={()=>handelPress(ref2)} className="text-white font-primaryFont text-lg opacity-90 text-nowrap hover:text-gray-200 cursor-pointer">
                 2ND YEAR
               </a>
             </li>

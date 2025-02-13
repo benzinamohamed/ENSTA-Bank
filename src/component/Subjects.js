@@ -1,15 +1,15 @@
 import React from 'react'
 import { SEMESTER1_1CP , SEMESTER2_1CP , SEMESTER1_2CP , SEMESTER2_2CP} from '../constants/constants'
 
-function Subjects() {
+function Subjects({ref1 , ref2}) {
   return (
     <>
     <div className='flex flex-col gap-40'>
         <div className='flex  items-center flex-col'>
-            <div className='min-lg:w-[92%] w-[80%] h-16 bg-gradient-to-r from-y1 to-y2 rounded-t-xl text-white text-2xl font-primaryFont flex justify-center items-center'>1ST YEAR</div>
+            <div ref={ref1} className='min-lg:w-[92%] w-[80%] h-16 bg-gradient-to-r from-y1 to-y2 rounded-t-xl text-white text-2xl font-primaryFont flex justify-center items-center'>1ST YEAR</div>
           <ListofModules  SEMESTER1 ={SEMESTER1_1CP } SEMESTER2={SEMESTER2_1CP}></ListofModules>
         </div>
-        <div className='flex justify-center items-center flex-col'>
+        <div ref={ref2} className='flex justify-center items-center flex-col'>
             <div className='min-lg:w-[92%] w-[80%] h-16 bg-gradient-to-r from-welcome1 to-welcome2 rounded-t-xl text-white text-2xl font-primaryFont flex justify-center items-center'>2ND YEAR</div>
           <ListofModules SEMESTER1 ={SEMESTER1_2CP } SEMESTER2={SEMESTER2_2CP}></ListofModules>
         </div>
